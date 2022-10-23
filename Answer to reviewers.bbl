@@ -1,0 +1,225 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Alfieri%
+\ \BBA {} Matta%
+}{%
+Alfieri%
+\ \BBA {} Matta%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+alfieri2012mathematical}
+\APACinsertmetastar {%
+alfieri2012mathematical}%
+\begin{APACrefauthors}%
+Alfieri, A.%
+\BCBT {}\ \BBA {} Matta, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Mathematical programming formulations for approximate
+  simulation of multistage production systems} {Mathematical programming
+  formulations for approximate simulation of multistage production
+  systems}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{European Journal of Operational
+  Research}{219}{3}{773--783}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Alfieri%
+, Matta%
+\BCBL {}\ \BBA {} Pastore%
+}{%
+Alfieri%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+alfieri2020time}
+\APACinsertmetastar {%
+alfieri2020time}%
+\begin{APACrefauthors}%
+Alfieri, A.%
+, Matta, A.%
+\BCBL {}\ \BBA {} Pastore, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The time buffer approximated Buffer Allocation Problem:
+  A row--column generation approach} {The time buffer approximated buffer
+  allocation problem: A row--column generation approach}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computers \& Operations Research}{115}{}{104835}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Basile%
+, Chiacchio%
+\BCBL {}\ \BBA {} De~Tommasi%
+}{%
+Basile%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+basile2012k}
+\APACinsertmetastar {%
+basile2012k}%
+\begin{APACrefauthors}%
+Basile, F.%
+, Chiacchio, P.%
+\BCBL {}\ \BBA {} De~Tommasi, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {On K-diagnosability of Petri nets via integer linear
+  programming} {On k-diagnosability of petri nets via integer linear
+  programming}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Automatica}{48}{9}{2047--2058}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bemporad%
+\ \BBA {} Morari%
+}{%
+Bemporad%
+\ \BBA {} Morari%
+}{%
+{\protect \APACyear {1999}}%
+}]{%
+bemporad1999control}
+\APACinsertmetastar {%
+bemporad1999control}%
+\begin{APACrefauthors}%
+Bemporad, A.%
+\BCBT {}\ \BBA {} Morari, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1999}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Control of systems integrating logic, dynamics, and
+  constraints} {Control of systems integrating logic, dynamics, and
+  constraints}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Automatica}{35}{3}{407--427}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Chan%
+\ \BBA {} Schruben%
+}{%
+Chan%
+\ \BBA {} Schruben%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+chan2008optimization}
+\APACinsertmetastar {%
+chan2008optimization}%
+\begin{APACrefauthors}%
+Chan, W\BPBI K.%
+\BCBT {}\ \BBA {} Schruben, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Optimization models of discrete-event system dynamics}
+  {Optimization models of discrete-event system dynamics}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Operations Research}{56}{5}{1218--1237}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Di~Marino%
+, Su%
+\BCBL {}\ \BBA {} Basile%
+}{%
+Di~Marino%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+di2020makespan}
+\APACinsertmetastar {%
+di2020makespan}%
+\begin{APACrefauthors}%
+Di~Marino, E.%
+, Su, R.%
+\BCBL {}\ \BBA {} Basile, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Makespan optimization using Timed Petri Nets and Mixed
+  Integer Linear Programming Problem} {Makespan optimization using timed petri
+  nets and mixed integer linear programming problem}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IFAC-PapersOnLine}{53}{4}{129--135}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Weiss%
+\ \BBA {} Stolletz%
+}{%
+Weiss%
+\ \BBA {} Stolletz%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+weiss2015buffer}
+\APACinsertmetastar {%
+weiss2015buffer}%
+\begin{APACrefauthors}%
+Weiss, S.%
+\BCBT {}\ \BBA {} Stolletz, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Buffer allocation in stochastic flow lines via
+  sample-based optimization with initial bounds} {Buffer allocation in
+  stochastic flow lines via sample-based optimization with initial
+  bounds}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{OR spectrum}{37}{4}{869--902}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zhang%
+\ \BBA {} Matta%
+}{%
+Zhang%
+\ \BBA {} Matta%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+zhang2020models}
+\APACinsertmetastar {%
+zhang2020models}%
+\begin{APACrefauthors}%
+Zhang, M.%
+\BCBT {}\ \BBA {} Matta, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Models and algorithms for throughput improvement problem
+  of serial production lines via downtime reduction} {Models and algorithms for
+  throughput improvement problem of serial production lines via downtime
+  reduction}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IISE Transactions}{}{}{1--15}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

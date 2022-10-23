@@ -9,30 +9,30 @@
 
 \usepackage{soul}
 \usepackage{amsmath,amssymb} 
-\usepackage[natbibapa,nodoi]{apacite}
 \usepackage{multicol}
-\setlength\bibhang{12pt}
-\renewcommand\bibliographytypesize{\fontsize{10}{12}\selectfont}
+
 \theoremstyle{plain}
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{lemma}[theorem]{Lemma}
 \newtheorem{corollary}[theorem]{Corollary}
 \newtheorem{proposition}[theorem]{Proposition}
-
 \theoremstyle{definition}
 \newtheorem{definition}[theorem]{Definition}
 \newtheorem{example}[theorem]{Example}
-
 \theoremstyle{remark}
 \newtheorem{remark}{Remark}
 \newtheorem{notation}{Notation}
+
+\usepackage[natbibapa,nodoi]{apacite}
+\setlength\bibhang{12pt}
+\renewcommand\bibliographytypesize{\fontsize{10}{12}\selectfont}
+
 
 \usepackage[pdftex,colorlinks=true,urlcolor=blue,citecolor=black,anchorcolor=black,linkcolor=black]{hyperref}
 \usepackage{xcolor}
 \usepackage{algorithm} 
 \usepackage{algorithmic} 
 \renewcommand{\algorithmicrequire}{ \textbf{Input:}}
-\usepackage{soul}
 \setlength{\marginparwidth}{2cm}
 \usepackage{todonotes}
 \usepackage{lscape}
@@ -78,7 +78,7 @@
 
 \bigskip
 \begin{abstract}
-This work proposes a mathematical programming (MP) representation of discrete event simulation of timed Petri nets (TPN). Currently, MP techniques are not widely applied to optimizing discrete event systems, however, this work builds a connection between the two fruitful research fields. In the MP formalism, the decision variables are composed of the transition firing time and the markings, while the constraints represents the state transition logic and temporal sequences among events. The MP model and a simulation run of the TPN are totally equivalent, which is validated with several cases. Using a TPN model as input, the MP model can be routinely and conveniently generated.
+This work proposes a mathematical programming (MP) representation of discrete event simulation of timed Petri nets (TPN). Currently, MP techniques are not widely applied to optimizing discrete event systems, and this work connects the two fruitful research fields. In the MP formalism, the decision variables are composed of the transition firing time and the markings, while the constraints represents the state transition logic and temporal sequences among events. The MP model and a simulation run of the TPN are totally equivalent, which is validated with several cases. Using a TPN model as input, the MP model can be routinely and conveniently generated.
 
 
 %It is a new formalism of discrete event systems. The MPR-DES is the foundation of developing white-box simulation optimization algorithms. The decision variables of the MPR are the transition firing times and the markings, and the constraints represent the transition firings. The equivalence of the solution of the proposed mathematical programming model and the simulation run using the same sample paths is validated with several cases. The MPR generation has been coded in an automatic procedure that only requires the user to input the timed Petri net model.
@@ -91,32 +91,32 @@ discrete event simulation, mathematical programming, timed Petri net
 
 \section{Introduction}
 
-Discrete event systems has wide application in manufacturing and service applications. Even though many theoretical and analytical studies on discrete event dynamic systems have been developed, performance of real systems sometimes can only be evaluating with discrete event simulation (DES) due to system complexity. Hence, simulation--optimization algorithms are widely used when performance evaluation must be coupled with optimization, i.e., when the best system configuration, according to some criteria, has to be found meanwhile guaranteeing a given value of some performance measure.  
+Discrete event dynamic systems (DEVS) has wide application in manufacturing and service applications. Even though many theoretical and analytical studies on discrete event dynamic systems have been developed, performance of real systems sometimes can only be evaluating with discrete event simulation (DES) due to system complexity. Hence, simulation--optimization algorithms are widely used when performance evaluation must be coupled with optimization, i.e., when the best system configuration, according to some criteria, has to be found meanwhile guaranteeing a given value of some performance measure.  
 
 
-Most of the simulation--optimization studies consider DES as a \textit{black--box} function. Under the black--box setting, simulation module and optimization module are decoupled, except that simulation module needs to provide the performance measures of certain solutions when the optimization module queries. with quite limited information from simulation, the optimization module must have many trials, so the black--box procedure can be computationally inefficient.
+Most of the simulation--optimization studies consider DES as a \textit{black--box} function. Under the black--box setting, simulation module and optimization module are decoupled, except that simulation module needs to provide the performance measures of certain solutions when the optimization module queries. With quite limited information from simulation, the optimization module must have many trials, so the black--box procedure can be computationally inefficient.
 
 
-A promising direction to improve the inefficiency of black-box procedure is to merge the system dynamics into optimization, i.e., considering DES as white-box and modeling system dynamics as part of mathematical programming (MP) models. Several works can be found in literature. An MP model was proposed to minimize the makespan of single-server manufacturing systems in \cite{di2020makespan}. The buffer allocation problem in multi-stage production flow lines with blocking is formulated as MP and solved in \cite{matta2008simulation}, \cite{weiss2015buffer} and \cite{alfieri2020time}. The optimization of systems with complex blocking mechanisms, for instance extended kanban, is addressed in \cite{pedrielli2015integrated} with MP techniques. With MP techniques, such as decomposition or linear approximation, solving the MP models can be rather efficient than black-box algorithms and the optimality is also enhanced (\cite{weiss2015buffer}, \cite{alfieri2020time}). 
+A promising direction to improve the inefficiency of black-box procedure is to merge the system dynamics into optimization, i.e., considering DES as /textit{white-box} and modeling system dynamics as part of mathematical programming (MP) models. Several works can be found in literature. An MP model was proposed to minimize the makespan of single-server manufacturing systems in \cite{di2020makespan}. The buffer allocation problem in multi-stage production flow lines with blocking is formulated as MP and solved in \cite{matta2008simulation}, \cite{weiss2015buffer} and \cite{alfieri2020time}. The optimization of systems with complex blocking mechanisms, for instance extended kanban, is addressed in \cite{pedrielli2015integrated} with MP techniques. Decomposition or linear approximation approaches are applied to solving the MP models, and it can be rather efficient than black-box algorithms and the optimality is also enhanced (\cite{weiss2015buffer}, \cite{alfieri2020time}). 
 
 
-However, white-box simulation optimization approaches are not as widely-applied as block-box ones. The reason is that developing a white-box algorithm requires one to master both discrete event dynamic systems, its simulation and mathematical programming, but those disciplines are not tightly connected. The above-mentioned works all addresses the optimization of systems with specific assumptions, and there is a lack of generalization to extend the approaches into other problems. To fill this gap, this work proposes an approach to translating the simulation of general timed Petri net (TPN) into MP models.
+However, white-box simulation optimization approaches are not as widely-applied as block-box ones. The reason is that developing a white-box algorithm requires one to master discrete event dynamic systems, its simulation and mathematical programming, but those disciplines are not tightly connected. The above-mentioned works are all tailored to specific cases, and there is a lack of generalization to extend the works to other problems. To fill this gap, this work proposes an approach to translating the simulation of general timed Petri net (TPN) into MP models.
 
 
-In literature, a few works address the same problem as this one, i.e.,  translating the behavior of general discrete event dynamic systems into MP. \cite{bemporad1999control} proposed a mixed integer programming modeling framework for hybrid systems, whose states are mixed integer, in discrete time. Differently, this work deals with continuous--time discrete--state systems. \cite{chan2008optimization} proposed a modeling framework to translate a DES model into an MPR model in a general sense. Their modeling framework is based on the Event Relationship Graph (ERG) of the system dynamics. However, the ERG is not as commonly-used as TPN, so people would very probably prefer to have a TPN-based approach than ERG-based. 
+In literature, a few works address the similar problem, i.e.,  translating the behavior of general discrete event dynamic systems into MP. \cite{bemporad1999control} proposed a mixed integer programming modeling framework for hybrid systems, whose states are mixed integer, in discrete time. Differently, this work deals with continuous--time discrete--state systems. \cite{chan2008optimization} proposed a modeling framework to translate a DES model into an MP model in a general sense based on the Event Relationship Graph (ERG) of the system dynamics. However, the ERG is not as commonly-used as TPN, and the approach is not used often.
 
 
-The benefits of using MP model to present discrete event systems are many. As already mentioned above, when coupled with optimization, the MP-based algorithms can be faster and gain better solution than black--box optimization algorithms. Furthermore, black--box approaches have limited capability is solving constrained optimization problems, but MP-based approaches can easily deal with them \cite{zhang2020models}. Thirdly, the vast theoretical and methodological results developed in the MP field can be introduced into the study of DEVS through simulation. For instance, using sensitivity analysis of MP models, DES can be a gradient estimation tool, as suggested in \cite{chan2008optimization}. In fact, we do not proposed to totally replace simulation with MP, but to enrich the toolbox for analyzing and optimizing DEVS. Finally, the application of MP models of DEVS is not limited to optimization. \cite{basile2012k} proposed the sufficient and necessary condition of K-diagnosability of TPN based on MP modeling. 
+The benefits of using MP model to present discrete event systems are many. As already mentioned above, when coupled with optimization, the MP-based algorithms can be faster and gain better solution than black--box optimization algorithms. Furthermore, black--box approaches have limited capability is solving constrained optimization problems, but MP-based approaches can easily deal with them \cite{zhang2020models}. Thirdly, the vast theoretical and methodological results developed in the MP field can be introduced into the study of DEVS through simulation. For instance, using sensitivity analysis of MP models, DES can be a gradient estimation tool, as suggested in \cite{chan2008optimization}. In fact, we do not proposed to totally replace simulation with MP, but to enrich the toolbox for analyzing and optimizing DEVS. Finally, the application of MP models of DEVS is not limited to optimization. \cite{basile2012k} proposed the sufficient and necessary condition of K-diagnosability of TPN based on MP. 
 
 
-The major concern about the application of MP is the computational complexity. Solving MP models can be time-consuming or even unbearable. However, many approaches from optimization community are available to improve the efficiency. Linear programming approximation (\cite{alfieri2012mathematical}), Benders decomposition (\cite{weiss2015buffer}), row-column generation (\cite{alfieri2020time}), have been studied to solve optimization problems in reality based-on MP model of DEVS.
+The major concern about the application of MP is the computational complexity, and the solving procedure can be time-consuming or even unbearable. However, many approaches from optimization community are available to improve the efficiency. Linear programming approximation (\cite{alfieri2012mathematical}), Benders decomposition (\cite{weiss2015buffer}), row-column generation (\cite{alfieri2020time}), have been studied to solve optimization problems in reality based-on MP model of DEVS.
 
 
-The contributions of this work is to propose the first framework translating general TPN into MP models. The translation procedure can be conveniently implemented in general purpose programming languages. This work lays a foundation of developing MP-based algorithm for analyzing and optimizing general TPN, based on the vast literature in MP filed. 
+The contributions of this work is to propose the first framework translating general TPN into MP models. The translation procedure can be conveniently implemented in general--purpose programming languages. This work lays a foundation of developing MP-based approaches for analyzing and optimizing general TPN, based on the vast literature in MP field. 
 %The proposed MP models can also be easily transformed into an MPR for optimizing the design parameters of the DES, which are common optimization problems in operations management field.  
 
 
-The rest of the paper is organized as follows. Section \ref{sec:sim} briefly introduce the TPN and its simulation algorithm. Section \ref{sec:TPN_MPR} describes the generation of the MPR of a TPN model. Section XXX shows several examples of application and validation of the equivalence of simulation and the MP. Discussion and conclusion are reported in Section XXX and XXX, respectively.
+The rest of the paper is organized as follows. Section \ref{sec:sim} briefly introduce the TPN and its simulation algorithm. Section \ref{sec:TPN_MPR} describes the generation of the MP of a TPN model. Section XXX shows several examples of application and validation of the equivalence of simulation and the MP. Discussion and conclusion are reported in Section XXX and XXX, respectively.
 
 
 
