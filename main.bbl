@@ -167,6 +167,30 @@ Di~Marino, E.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Fu%
+}{%
+Fu%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+fu20115book}
+\APACinsertmetastar {%
+fu20115book}%
+\begin{APACrefauthors}%
+Fu, M.%
+\end{APACrefauthors}%
+\ (\BED).
+\unskip\
+\newblock
+\APACrefYear{2015}.
+\newblock
+\APACrefbtitle {Handbook of Simulation Optimization} {Handbook of simulation
+  optimization}.
+\newblock
+\APACaddressPublisher{}{Springer}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Law%
 }{%
 Law%

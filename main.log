@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.22)  23 OCT 2022 10:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.22)  1 JAN 2023 20:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -308,39 +308,22 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@uldp=\dimen189
 \SOUL@ulht=\dimen190
 )
-(apacite.sty
-Package: apacite 2013/07/21 v6.03 APA citation
-\c@BibCnt=\count288
-\bibleftmargin=\skip62
-\bibindent=\skip63
-\bibparsep=\skip64
-\bibitemsep=\skip65
-\biblabelsep=\skip66
-) (natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip67
-\bibsep=\skip68
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count289
-)
-LaTeX Info: Redefining \BBA on input line 13.
-
 (C:\Users\wmengzhe\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
-\c@tracingmulticols=\count290
+\c@tracingmulticols=\count288
 \mult@box=\box54
 \multicol@leftmargin=\dimen191
-\c@unbalance=\count291
-\c@collectmore=\count292
-\doublecol@number=\count293
-\multicoltolerance=\count294
-\multicolpretolerance=\count295
+\c@unbalance=\count289
+\c@collectmore=\count290
+\doublecol@number=\count291
+\multicoltolerance=\count292
+\multicolpretolerance=\count293
 \full@width=\dimen192
 \page@free=\dimen193
 \premulticols=\dimen194
 \postmulticols=\dimen195
-\multicolsep=\skip69
-\multicolbaselineskip=\skip70
+\multicolsep=\skip62
+\multicolbaselineskip=\skip63
 \partial@page=\box55
 \last@line=\box56
 \maxbalancingoverflow=\dimen196
@@ -384,19 +367,36 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \@tempa=\box94
 \@tempa=\box95
 \@tempa=\box96
-\c@minrows=\count296
-\c@columnbadness=\count297
-\c@finalcolumnbadness=\count298
+\c@minrows=\count294
+\c@columnbadness=\count295
+\c@finalcolumnbadness=\count296
 \last@try=\dimen197
 \multicolovershoot=\dimen198
 \multicolundershoot=\dimen199
 \mult@nat@firstbox=\box97
 \colbreak@box=\box98
-\mc@col@check@num=\count299
+\mc@col@check@num=\count297
 )
-\c@theorem=\count300
-\c@remark=\count301
-\c@notation=\count302
+\c@theorem=\count298
+\c@remark=\count299
+\c@notation=\count300
+
+(apacite.sty
+Package: apacite 2013/07/21 v6.03 APA citation
+\c@BibCnt=\count301
+\bibleftmargin=\skip64
+\bibindent=\skip65
+\bibparsep=\skip66
+\bibitemsep=\skip67
+\biblabelsep=\skip68
+) (natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip69
+\bibsep=\skip70
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count302
+)
+LaTeX Info: Redefining \BBA on input line 27.
 
 (C:\Users\wmengzhe\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.st
 y
@@ -1050,577 +1050,203 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {C:/Users/wmengzhe/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 [2]
-<Figures/GG1_petri.png, id=199, 636.195pt x 100.959pt>
+<Figures/GG1_petri.png, id=205, 636.195pt x 100.959pt>
 File: Figures/GG1_petri.png Graphic file (type png)
 <use Figures/GG1_petri.png>
-Package pdftex.def Info: Figures/GG1_petri.png  used on input line 189.
+Package pdftex.def Info: Figures/GG1_petri.png  used on input line 196.
 (pdftex.def)             Requested size: 326.40125pt x 51.7965pt.
- [3]
+ [3
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.207 
+       <./Figures/GG1_petri.png>]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 199.
+put line 221.
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
-06.
+28.
 
 (C:\Users\wmengzhe\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <11> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 206.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 228.
 
-Underfull \hbox (badness 6268) in paragraph at lines 211--211
+Underfull \hbox (badness 6268) in paragraph at lines 233--233
 [] []\OT1/cmr/bx/n/10.95 while \OT1/cmr/m/n/10.95 cur-rent mark-ing en-ables th
 e fir-ing of $\OML/cmm/m/it/10.95 t[]$\OT1/cmr/m/n/10.95 , i.e., $\OML/cmm/m/it
 /10.95 M\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 p[]\OT1/cmr/m/n/10.95 ) \OMS/cm
 sy/m/n/10.95 ^^U
  []
 
-[4
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.245 
-       <./Figures/GG1_petri.png>] [5] [6
+[4] [5] [6
 pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.281 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1}
-) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.281 
-      ]
-<Figures/TPN_expansion.png, id=260, 690.507pt x 59.568pt>
+l.307 \end{eqnarray}
+                    ]
+<Figures/TPN_expansion.png, id=270, 690.507pt x 59.568pt>
 File: Figures/TPN_expansion.png Graphic file (type png)
 <use Figures/TPN_expansion.png>
-Package pdftex.def Info: Figures/TPN_expansion.png  used on input line 284.
+Package pdftex.def Info: Figures/TPN_expansion.png  used on input line 316.
 (pdftex.def)             Requested size: 326.40125pt x 28.15782pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.292 \begin{eqnarray}
+l.324 \begin{eqnarray}
                       
 pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.292 \begin{eqnarray}
+l.324 \begin{eqnarray}
                       
 pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.292 \begin{eqnarray}
+l.324 \begin{eqnarray}
                       
 pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.292 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.303 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.303 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.303 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.303 \begin{eqnarray}
+l.324 \begin{eqnarray}
                        [7
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.329 \end{eqnarray}
+                    
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.309 
-       <./Figures/TPN_expansion.png>]
-<Figures/TPN-GG2.png, id=274, 274.02374pt x 95.6072pt>
+l.329 \end{eqnarray}
+                     <./Figures/TPN_expansion.png>]
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.336 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.336 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.336 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.336 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.341 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.341 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.341 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.341 \begin{eqnarray}
+                       [8]
+<Figures/TPN-GG2.png, id=288, 274.02374pt x 95.6072pt>
 File: Figures/TPN-GG2.png Graphic file (type png)
 <use Figures/TPN-GG2.png>
-Package pdftex.def Info: Figures/TPN-GG2.png  used on input line 321.
+Package pdftex.def Info: Figures/TPN-GG2.png  used on input line 363.
 (pdftex.def)             Requested size: 183.59875pt x 64.05939pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/TPN-GG2-expansion.png, id=277, 586.44093pt x 117.43875pt>
+<Figures/TPN-GG2-expansion.png, id=291, 586.44093pt x 117.43875pt>
 File: Figures/TPN-GG2-expansion.png Graphic file (type png)
 <use Figures/TPN-GG2-expansion.png>
-Package pdftex.def Info: Figures/TPN-GG2-expansion.png  used on input line 330.
+Package pdftex.def Info: Figures/TPN-GG2-expansion.png  used on input line 372.
 
 (pdftex.def)             Requested size: 326.40125pt x 65.36383pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[8] [9
+ [9
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.340 \begin{landscape}
-                       
+l.378 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.340 \begin{landscape}
-                        <./Figures/TPN-GG2.png> <./Figures/TPN-GG2-expansion.pn
-g>]
+l.378 
+       <./Figures/TPN-GG2.png> <./Figures/TPN-GG2-expansion.png>] [10]
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 349.
+(Font)              size <5> substituted on input line 402.
 
 
-Overfull \hbox (2.25444pt too wide) in paragraph at lines 344--386
+Overfull \hbox (2.25444pt too wide) in paragraph at lines 397--439
 [][] 
  []
 
-[10
+[11
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.387 \end{landscape}
-                     ] [11
-
-
-] [12] [13] [14] [15]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[16]
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.592 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.592 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.592 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.592 \begin{eqnarray}
-                       [17
-pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
- been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.615 \begin{eqnarray}
-                      ]
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.615 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.615 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.615 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.615 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.623 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.623 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.623 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.623 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.632 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.632 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.632 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.632 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.643 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.643 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.643 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.643 \begin{eqnarray}
-                       [18]
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.650 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.650 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.650 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.650 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.657 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.657 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.657 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.657 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.670 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.670 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.670 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.670 \begin{eqnarray}
-                       [19]
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.688 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.688 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.688 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.688 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.699 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.699 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.699 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.699 \begin{eqnarray}
-                       [20]
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.706 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.706 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.706 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.706 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.720 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.720 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.720 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.720 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.730 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.730 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.730 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.730 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.735 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.735 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.735 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.735 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.740 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.740 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.740 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.740 \begin{eqnarray}
-                       [21] [22
-pdfTeX warning (ext4): destination with the same identifier (name{equation.7.1}
-) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.769 \begin{eqnarray}
-                      ]
-pdfTeX warning (ext4): destination with the same identifier (name{equation.7.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.769 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.7.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.769 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.7.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.769 \begin{eqnarray}
-                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.7.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.769 \begin{eqnarray}
-                       [23] [24]
-Overfull \hbox (28.56184pt too wide) in paragraph at lines 814--868
-[][] 
- []
-
-[25
-pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
- been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.869 \end{landscape}
+l.440 \end{landscape}
                      ]
-<Figures/merge.png, id=438, 354.6048pt x 239.4546pt>
-File: Figures/merge.png Graphic file (type png)
-<use Figures/merge.png>
-Package pdftex.def Info: Figures/merge.png  used on input line 882.
-(pdftex.def)             Requested size: 163.19751pt x 110.20525pt.
- [26
+<Figures/GG2-ERG.png, id=316, 650.211pt x 127.896pt>
+File: Figures/GG2-ERG.png Graphic file (type png)
+<use Figures/GG2-ERG.png>
+Package pdftex.def Info: Figures/GG2-ERG.png  used on input line 447.
+(pdftex.def)             Requested size: 326.40125pt x 64.20348pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.4.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.453 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.4.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.453 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.4.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.453 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.4.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.453 \begin{eqnarray}
+                       [12
 
 
 
@@ -1628,58 +1254,484 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.918 \end{table}
-                  <./Figures/merge.png>] [27
+l.468 
+       <./Figures/GG2-ERG.png>] [13] [14] [15] [16] [17] [18]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[19]
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.687 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.687 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.687 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.687 \begin{eqnarray}
+                       [20
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.710 \begin{eqnarray}
+                      ]
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.710 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.710 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.710 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.710 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.718 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.718 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.718 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.718 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.727 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.727 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.727 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.727 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.738 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.738 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.738 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.738 \begin{eqnarray}
+                       [21]
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.745 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.745 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.745 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.745 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.752 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.752 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.752 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.752 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.765 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.765 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.765 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.765 \begin{eqnarray}
+                       [22]
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.783 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.783 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.783 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.783 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.794 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.794 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.794 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.794 \begin{eqnarray}
+                       [23]
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.801 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.801 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.801 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.801 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.815 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.815 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.815 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.815 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.825 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.825 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.825 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.825 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.830 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.830 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.830 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.830 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.835 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.835 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.835 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.835 \begin{eqnarray}
+                       [24] [25
+pdfTeX warning (ext4): destination with the same identifier (name{equation.8.14
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.864 \begin{eqnarray}
+                      ]
+pdfTeX warning (ext4): destination with the same identifier (name{equation.8.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.864 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.8.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.864 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.8.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.864 \begin{eqnarray}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.8.14
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.864 \begin{eqnarray}
+                       [26] [27]
+Overfull \hbox (28.56184pt too wide) in paragraph at lines 909--963
+[][] 
+ []
+
+[28
+pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.964 \end{landscape}
+                     ]
+<Figures/merge.png, id=486, 354.6048pt x 239.4546pt>
+File: Figures/merge.png Graphic file (type png)
+<use Figures/merge.png>
+Package pdftex.def Info: Figures/merge.png  used on input line 972.
+(pdftex.def)             Requested size: 163.19751pt x 110.20525pt.
+ [29
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1009 
+        <./Figures/merge.png>] [30
 pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.939 \end{eqnarray}
-                    
-pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+l.1033 \end{eqnarray}
+                     
+pdfTeX warning (ext4): destination with the same identifier (name{equation.8.27
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.939 \end{eqnarray}
-                    ] [28
-pdfTeX warning (ext4): destination with the same identifier (name{equation.7.14
+l.1033 \end{eqnarray}
+                     
+pdfTeX warning (ext4): destination with the same identifier (name{equation.8.27
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.975 \end{eqnarray}
-                    ] [29]
-Overfull \hbox (25.14723pt too wide) in paragraph at lines 1003--1030
+l.1033 \end{eqnarray}
+                     ] [31] [32]
+Overfull \hbox (25.14723pt too wide) in paragraph at lines 1093--1120
 [][]
  []
 
-[30] [31
+[33
 pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1053 \end{eqnarray}
-                     ] [32
-pdfTeX warning (ext4): destination with the same identifier (name{equation.7.40
+l.1134 \end{eqnarray}
+                     ] [34
+pdfTeX warning (ext4): destination with the same identifier (name{equation.8.53
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1078 \begin{eqnarray}
-                       ] [33] [34] (main.bbl [35]) [36] [37] [38] (main.aux)
+l.1159 \end{eqnarray}
+                     ] [35] [36] (main.bbl [37]) [38] [39] [40] [41] (main.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E19277768B085C3606BFC7A9286DB859;5576.
+(rerunfilecheck)             Checksum: 0A1056AD48CE510B9B53B63F40AA51A4;6043.
  ) 
 Here is how much of TeX's memory you used:
- 24394 strings out of 475385
- 453453 string characters out of 2775490
- 791019 words of memory out of 3000000
- 45092 multiletter control sequences out of 15000+600000
+ 24429 strings out of 475385
+ 453902 string characters out of 2775490
+ 792175 words of memory out of 3000000
+ 45118 multiletter control sequences out of 15000+600000
  480702 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,12n,94p,3040b,836s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 99i,12n,94p,3040b,994s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/wmengzhe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmbx10.pfb><C:/Users/wmengzhe/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmbx12.pfb><C:/Users/wmengzhe/AppData/Local/Programs/MiKTeX/font
@@ -1704,9 +1756,9 @@ KTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/wmengzhe/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/wmeng
 zhe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm7.pfb
 >
-Output written on main.pdf (38 pages, 551392 bytes).
+Output written on main.pdf (41 pages, 625165 bytes).
 PDF statistics:
- 805 PDF objects out of 1000 (max. 8388607)
- 248 named destinations out of 1000 (max. 500000)
- 294 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 855 PDF objects out of 1000 (max. 8388607)
+ 256 named destinations out of 1000 (max. 500000)
+ 307 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -17,10 +17,7 @@ comments, this submission has undergone a major revision. In this %new
 revised version, the MP models are developed based on general timed Petri nets (TPN) instead of the proposed representation of discrete event dynamic systems (DEVS) that was used in the previous submission. This change reduces the difficulty of applying the proposed approach and can be better understood by people familiar with DEVS.
 
 
-The concerns about application, usefulness, benefit and computational complexity were mentioned by the editors and reviewers for several times. 
-
-
-To answer such concerns, we have seen many applications of the use of mathematical programming (MP) for the representation of system dynamics in literature. Most of the works couples the system dynamics and optimization, as in \cite{di2020makespan}, \cite{weiss2015buffer}, \cite{bemporad1999control}, \cite{alfieri2020time}. All those works solve problems in industrial applications, thus, the applicability has been proved. The properties of DEVS can also be analyzed through MPs, as in \cite{basile2012k}.
+The concerns about application, usefulness, benefit and computational complexity were mentioned by the editors and reviewers for several times. To answer such concerns, we have seen many applications of the use of mathematical programming (MP) for the representation of system dynamics in literature. Most of the works couples the system dynamics and optimization, as in \cite{di2020makespan}, \cite{weiss2015buffer}, \cite{bemporad1999control}, \cite{alfieri2020time}. All those works solve problems in industrial applications, thus, the applicability has been proved. The properties of DEVS can also be analyzed through MPs, as in \cite{basile2012k}.
 
 
 The usefulness %and benefit 
@@ -37,12 +34,12 @@ In the following, we answer the comments in details.
 
 
 \section{DE comments}
-\textit{The merit of the proposed technique should be clarified either in a general setting or on specific classes of systems like Petri nets or finite automata, and \textcolor{blue}{comparisons with extant tools and algorithms} should be made.}
+\textit{The merit of the proposed technique should be clarified either in a general setting or on specific classes of systems like Petri nets or finite automata, and comparisons with extant tools and algorithms should be made.}
 
 \noindent
 \textbf{Answer:} %In this submission, 
 In the revised manuscript our approach %works
-has been reformulated to have it working under general settings deterministic timed Petri net. 
+has been reformulated to have it working under general settings deterministic timed Petri net. With an example of the $G/G/m$ queue, the differences between the proposed model and the state-of-the-art model are discussed.
 
 
 \section{AE Comments}
@@ -66,10 +63,10 @@ real contexts based-on MP model of DEVS.
 
 ~\\
 
-\textit{\textcolor{blue} {2. Furthermore, the discussion about the application of the approach should be significantly strengthened. Currently, this is rather vague and there is no comparisons with existing approaches that are used to address these problems.}}
+\textit{2. Furthermore, the discussion about the application of the approach should be significantly strengthened. Currently, this is rather vague and there is no comparisons with existing approaches that are used to address these problems.}
 
 \noindent
-\textbf{Answer:}
+\textbf{Answer: With an example of the $G/G/m$ queue, the differences between the proposed model and the state-of-the-art model are discussed.}
 
 
 \section{Reviewer 1}
@@ -91,7 +88,7 @@ rather than time-dependent performance measures, such as waiting time or through
 
 
 The effective application domain of the proposed technique is basically related to optimization. The MP model of TPN %is easy to expand 
-can be easily expanded to an MP model of TPN optimization. (\textcolor{blue}{to be expanded})
+can be easily expanded to an MP model of TPN optimization. Based on the proposed MP model, an example with the extended MP model to optimize the $G/G/m$ queue is presented in Section 4.3.
 
 
 \section{Reviewer 2}
@@ -127,14 +124,23 @@ real contexts based-on MP model of DEVS.
 \textit{2. Detailed Comments}
 
 
-\textit{The paper reads clearly. There are only very few typos (see at the
-end).}
+\textit{The paper reads clearly. There are only very few typos (see at the end).}
+\textbf{Answer: we have correct the typos.}
 
-\textit{\textcolor{blue}{From a technical point of view, there is one thing that needs to be clarified, page 8: How do you choose constant M? Understandably, it should be large enough. However, I would expect to find in the paper a discussion about a lower bound on M.}}
+
+
+\textit{From a technical point of view, there is one thing that needs to be clarified, page 8: How do you choose constant M? Understandably, it should be large enough. However, I would expect to find in the paper a discussion about a lower bound on M.}
 
 \noindent
-\textbf{Answer:}
+\textbf{Answer: In the subsections of Section 3, the value of M is discussed each time it appears.}
 
+
+\textbf{Section 3.1: The value of M in constraints (A1) and (A2) can be set to a value that is larger than the simulation time span.}
+
+\textbf{Section 3.2: The value of M can be set to a value that is larger than the simulation time span for constraints (B1) and (B2).  The value of $M$ can be chosen as the upper bound of marking of place $p$ minus $(W^{p,t}-1)$ for constraints (B4). }
+
+
+\textbf{Section 3.3: The value of $M$ in constraints (C3) and (C4) can be set to $K$. }
 
 ~\\
 

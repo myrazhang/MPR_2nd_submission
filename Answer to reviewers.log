@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.22)  23 OCT 2022 11:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.22)  1 JAN 2023 21:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -366,26 +366,26 @@ File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 34.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 36.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 34.
+(Font)              size <5> substituted on input line 36.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 34.
+(Font)              size <5> substituted on input line 36.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 34.
+(Font)              size <5> substituted on input line 36.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 36.
 
 (C:\Users\wmengzhe\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
 
 
 (C:\Users\wmengzhe\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -395,26 +395,26 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 {C:/Users/wmengzhe/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
-(Answer to reviewers.bbl [3]) [4] (Answer to reviewers.aux)
+[3] (Answer to reviewers.bbl) [4] (Answer to reviewers.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
@@ -427,14 +427,17 @@ Here is how much of TeX's memory you used:
  26412 multiletter control sequences out of 15000+600000
  474006 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,5n,90p,1067b,236s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 85i,6n,90p,735b,160s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/wmengzhe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmbx10.pfb><C:/Users/wmengzhe/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb><C:/Users/wmengzhe/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Answer to reviewers.pdf" (4 pages, 75115 bytes).
+ic/amsfonts/cm/cmmi10.pfb><C:/Users/wmengzhe/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/wmengzhe/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/wmengzhe/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/wmengzhe/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on "Answer to reviewers.pdf" (4 pages, 109245 bytes).
 PDF statistics:
- 30 PDF objects out of 1000 (max. 8388607)
+ 45 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
