@@ -12,9 +12,7 @@
 \noindent
 Dear DE, AE and reviewers,
 
-Thanks to your valuable %review 
-comments, this submission has undergone a major revision. In this %new 
-revised version, the MP models are developed based on general timed Petri nets (TPN) instead of the proposed representation of discrete event dynamic systems (DEVS) that was used in the previous submission. This change reduces the difficulty of applying the proposed approach and can be better understood by people familiar with DEVS.
+Thanks to your valuable comments, this submission has undergone a major revision. In this revised version, the MP models are developed based on general timed Petri nets (TPN) instead of the proposed representation of discrete event dynamic systems (DEVS) that was used in the previous submission. This change reduces the difficulty of applying the proposed approach and can be better understood by people familiar with DEVS. However, since the TPN that we consider does not model firing cancellation, this manuscript does not cover the systems with event cancellation, which the previous one did. The coauthors and I believe that the benefit of TPN-based MP formulation provides tighter connection to the DEVS literature and is more important than extending to system with cancellation.
 
 
 The concerns about application, usefulness, benefit and computational complexity were mentioned by the editors and reviewers for several times. To answer such concerns, we have seen many applications of the use of mathematical programming (MP) for the representation of system dynamics in literature. Most of the works couples the system dynamics and optimization, as in \cite{di2020makespan}, \cite{weiss2015buffer}, \cite{bemporad1999control}, \cite{alfieri2020time}. All those works solve problems in industrial applications, thus, the applicability has been proved. The properties of DEVS can also be analyzed through MPs, as in \cite{basile2012k}.
@@ -39,7 +37,7 @@ In the following, we answer the comments in details.
 \noindent
 \textbf{Answer:} %In this submission, 
 In the revised manuscript our approach %works
-has been reformulated to have it working under general settings deterministic timed Petri net. With an example of the $G/G/m$ queue, the differences between the proposed model and the state-of-the-art model are discussed.
+has been reformulated to have it working under general settings of timed Petri net. With an example of the $G/G/m$ queue, the differences between the proposed model and the state-of-the-art MP model are discussed.
 
 
 \section{AE Comments}
@@ -49,24 +47,26 @@ has been reformulated to have it working under general settings deterministic ti
 
 \noindent
 \textbf{Answer:} %In this submission, 
-In the revised manuscript, we justify the benefit and computational burden of the proposed approach as follows: 
+In the revised manuscript, the MPR formulation is equivalent to the simulation realization of TPN.
 
-The benefits of using MP model to represent discrete event systems are many. As already mentioned above, when coupled with optimization, the MP-based algorithms can be faster and %gain 
-reach better solution than black--box optimization algorithms. Furthermore, black--box approaches have limited capability is solving constrained optimization problems, %but 
-while MP-based approaches can easily deal with them (\cite{zhang2020models}). Third, the vast theoretical and methodological results developed in the MP field can be introduced into the study of DEVS through simulation. For instance, using sensitivity analysis of MP models, DES can %be
-become a gradient estimation tool, as suggested in \cite{chan2008optimization}. In fact, we do not proposed to totally replace simulation with MP, but to enrich the toolbox for analyzing and optimizing DEVS. Finally, the application of MP models of DEVS is not limited to optimization. \cite{basile2012k} proposed the sufficient and necessary condition of K-diagnosability of TPN based on MP. 
+We justify the benefit and computational burden of the proposed approach as follows: 
+
+\textbf{The benefits of using MP models to represent discrete event systems are many. As already mentioned, %above,
+when coupled with optimization, the MP-based algorithms can be faster and %gain 
+reach better solution than black--box optimization algorithms. Furthermore, black--box approaches have limited capability in solving constrained optimization problems, %but 
+while MP--based approaches can easily deal with them \citep{zhang2020models}. The vast theoretical and methodological results developed in the MP field can be introduced into the study of DEVS through simulation. For instance, using sensitivity analysis of MP models, gradient estimates can be easily derived as suggested in \citep{chan2008optimization}. In fact, %we do not proposed 
+this paper does not propose to totally replace simulation with MP, but to enrich the toolbox for analyzing and optimizing DEVS. Finally, the application of MP models of DEVS is not limited to optimization but also to show formal properties of the system under study. For instance, \cite{basile2012k} proposed the sufficient and necessary condition of K-diagnosability of TPN based on MP analysis.} 
 
 
-The major concern about the application of MP is the computational complexity, %and the solving procedure 
-as the solution procedure can be time-consuming or even unbearable. However, many approaches from optimization community are available to improve the efficiency. Linear programming approximation (\cite{alfieri2012mathematical}), Benders decomposition (\cite{weiss2015buffer}), row-column generation (\cite{alfieri2020time}), have been studied to solve optimization problems in %reality
-real contexts based-on MP model of DEVS.
-
+\textbf{The major concern about the application of MP is the computational complexity, %and the solving procedure
+as the solution procedure can be time--consuming or even unbearable. However, many approaches from optimization community are available to improve the efficiency. Linear programming approximation \citep{alfieri2012mathematical}, Benders decomposition \citep{weiss2015buffer}, row--column generation \citep{alfieri2020time}, have been studied to solve optimization problems in %reality
+real contexts based on mathematical programming representation of DEVS.}
 ~\\
 
 \textit{2. Furthermore, the discussion about the application of the approach should be significantly strengthened. Currently, this is rather vague and there is no comparisons with existing approaches that are used to address these problems.}
 
 \noindent
-\textbf{Answer: With an example of the $G/G/m$ queue, the differences between the proposed model and the state-of-the-art model are discussed.}
+\textbf{Answer}: With an example of the $G/G/m$ queue, the differences between the proposed model and the state-of-the-art model are discussed.
 
 
 \section{Reviewer 1}
@@ -81,14 +81,20 @@ in the revised manuscript we propose the translation of TPN into MP.
 
 
 The difference between the proposed approach and the suggested references are %as follows.
-detailed in the following. \cite{bemporad1999control} proposed a mixed integer programming modeling framework for hybrid systems, whose states are mixed integer, in discrete time, while this work deals with continuous--time discrete--state systems. An MP model was proposed to minimize the makespan of single-server manufacturing systems in \cite{di2020makespan}, %but this
-while our work is more general and can model multi-server systems. \cite{basile2012k} proposed the model based on PN, not TPN, because %it deals with 
+detailed in the following. 
+
+[1] \cite{bemporad1999control} proposed a mixed integer programming modeling framework for hybrid systems, whose states are mixed integer, in discrete time, while this work deals with continuous--time discrete--state systems. 
+
+[2] An MP model was proposed to minimize the makespan of single-server manufacturing systems in \cite{di2020makespan}, %but this
+while our work is more general and can model multi-server systems. 
+
+[3] \cite{basile2012k} proposed the model based on PN, not TPN, because %it deals with 
 the paper is about diagnosability %other 
 rather than time-dependent performance measures, such as waiting time or throughput. 
 
 
 The effective application domain of the proposed technique is basically related to optimization. The MP model of TPN %is easy to expand 
-can be easily expanded to an MP model of TPN optimization. Based on the proposed MP model, an example with the extended MP model to optimize the $G/G/m$ queue is presented in Section 4.3.
+can be easily extended to an MP model of TPN optimization. Based on the proposed MP model, an example with the extended MP model to optimize the $G/G/m$ queue is presented in Section 4.3.
 
 
 \section{Reviewer 2}
@@ -104,44 +110,43 @@ serious doubt about the usefulness of the whole approach, in
 comparison with a DES simulator, implementing an operational
 semantics of the particular DES considered in the paper.}
 
-%\noindent
-%\textbf{Answer:} The reviewer's comment is reasonable. We %justify 
-%discuss the computational burden as follows in the submission:
-
-The major concern about the application of MP is the computational complexity, %and the solving procedure 
-as the solution procedure can be time-consuming or even unbearable. However, many approaches from optimization community are available to improve the efficiency. Linear programming approximation (\cite{alfieri2012mathematical}), Benders decomposition (\cite{weiss2015buffer}), row-column generation (\cite{alfieri2020time}), have been studied to solve optimization problems in %reality
-real contexts based-on MP model of DEVS.
-
-~\\
-
-\textit{\textcolor{blue}{For this reason, I recommend the rejection of the paper, and encourage the authors to replace part of the queueing network case-studies by an in-depth technical discussion of the possible applications of this MPR encoding.}}
+\textit{{For this reason, I recommend the rejection of the paper, and encourage the authors to replace part of the queueing network case-studies by an in-depth technical discussion of the possible applications of this MPR encoding.}}
 
 \noindent
-\textbf{Answer:}
+\noindent
+\textbf{Answer:} The reviewer's comment is reasonable. We discuss the computational burden as follows in the submission:
+
+\textbf{The major concern about the application of MP is the computational complexity, %and the solving procedure
+as the solution procedure can be time--consuming or even unbearable. However, many approaches from optimization community are available to improve the efficiency. Linear programming approximation \citep{alfieri2012mathematical}, Benders decomposition \citep{weiss2015buffer}, row--column generation \citep{alfieri2020time}, have been studied to solve optimization problems in %reality
+real contexts based on mathematical programming representation of DEVS.}
+
+In the PhD thesis of one of the coauthors \citep{zhang2021resource}, a Benders decomposition (BD) algorithm solving integrated simulation-optimization mathematical programming models is proposed. In the BD procedure, the subproblem is the MP representation of simulation realization of TPN. The Benders cuts are derived from the dual solution of the subproblem. The thesis proposed an algorithm to solve the dual solution from simulation, so that the computational complexity is linear to the number of decision variables. The BD algorithm finds good feasible solutions fast and guarantees sample-path optimality in the long run. A working paper is draft to present the computationally efficient BD algorithm. The coauthors and I decide not to combine the algorithm in this manuscript, since we would like to make the topic concentrated on MPR modeling and easy to digest.
+
 
 ~\\
 
 \textit{2. Detailed Comments}
 
+\textit{The paper reads clearly. There are only very few typos. Here is a list of typos: p 5, Section 2.3, line 2: ...proposed. This...}
 
-\textit{The paper reads clearly. There are only very few typos (see at the end).}
-\textbf{Answer: we have correct the typos.}
+\noindent
+\textbf{Answer}: we have correct the typos.
 
-
+~\\
 
 \textit{From a technical point of view, there is one thing that needs to be clarified, page 8: How do you choose constant M? Understandably, it should be large enough. However, I would expect to find in the paper a discussion about a lower bound on M.}
 
 \noindent
-\textbf{Answer: In the subsections of Section 3, the value of $M$ is discussed each time it %appears
-is used, as different values of $M$ are required in the constraints where $M$ is needed.}
+\textbf{Answer}: In the subsections of Section 3, the value of $M$ is discussed each time it %appears
+is used, as different values of $M$ are required in the constraints where $M$ is needed.
 
-\textbf{Section 3.1: The value of $M$ in constraints (A1) and (A2) can be set to a value that is larger than the simulation time span as it is needed to bound the finishing time of transitions.}
+{Section 3.1: The value of $M$ in constraints (A1) and (A2) can be set to a value that is larger than the simulation time span as it is needed to bound the finishing time of transitions.}
 
-\textbf{Section 3.2: Also in this case, the value of $M$ can be set to a value that is larger than the simulation time span for constraints (B1) and (B2) as 
+{Section 3.2: Also in this case, the value of $M$ can be set to a value that is larger than the simulation time span for constraints (B1) and (B2) as 
 it is used to bound the transition firing time. %The value of $M$ can be chosen as the upper bound of marking of place $p$ minus $(W^{p,t}-1)$ for constraints (B4). 
 For constraints (B4), instead, the value of $M$ can be chosen as the upper bound of marking of place $p$ minus $(W^{p,t}-1)$.}
 
-\textbf{Section 3.3: The value of $M$ in constraints (C3) and (C4) can be set to $K$, i.e., the total number of iterations. }
+{Section 3.3: The value of $M$ in constraints (C3) and (C4) can be set to $K$, i.e., the total number of iterations. }
 
 ~\\
 
@@ -152,14 +157,11 @@ detailed and technical discussion about the applications of the MPR
 encoding.}
 
 \noindent
-\textbf{Answer:}
+\textbf{Answer:} We remove the case study on the queueing network and add new examples of comparison and the extended optimization formulation. 
 
 
 ~\\
-\textit{Here is a list of typos: p 5, Section 2.3, line 2: ...proposed. This...}
 
-\noindent
-\textbf{Answer:}
 
 
 
