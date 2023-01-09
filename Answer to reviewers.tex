@@ -132,15 +132,16 @@ real contexts based-on MP model of DEVS.
 \textit{From a technical point of view, there is one thing that needs to be clarified, page 8: How do you choose constant M? Understandably, it should be large enough. However, I would expect to find in the paper a discussion about a lower bound on M.}
 
 \noindent
-\textbf{Answer: In the subsections of Section 3, the value of M is discussed each time it appears.}
+\textbf{Answer: In the subsections of Section 3, the value of $M$ is discussed each time it %appears
+is used, as different values of $M$ are required in the constraints where $M$ is needed.}
 
+\textbf{Section 3.1: The value of $M$ in constraints (A1) and (A2) can be set to a value that is larger than the simulation time span as it is needed to bound the finishing time of transitions.}
 
-\textbf{Section 3.1: The value of M in constraints (A1) and (A2) can be set to a value that is larger than the simulation time span.}
+\textbf{Section 3.2: Also in this case, the value of $M$ can be set to a value that is larger than the simulation time span for constraints (B1) and (B2) as 
+it is used to bound the transition firing time. %The value of $M$ can be chosen as the upper bound of marking of place $p$ minus $(W^{p,t}-1)$ for constraints (B4). 
+For constraints (B4), instead, the value of $M$ can be chosen as the upper bound of marking of place $p$ minus $(W^{p,t}-1)$.}
 
-\textbf{Section 3.2: The value of M can be set to a value that is larger than the simulation time span for constraints (B1) and (B2).  The value of $M$ can be chosen as the upper bound of marking of place $p$ minus $(W^{p,t}-1)$ for constraints (B4). }
-
-
-\textbf{Section 3.3: The value of $M$ in constraints (C3) and (C4) can be set to $K$. }
+\textbf{Section 3.3: The value of $M$ in constraints (C3) and (C4) can be set to $K$, i.e., the total number of iterations. }
 
 ~\\
 
