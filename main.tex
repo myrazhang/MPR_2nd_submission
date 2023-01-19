@@ -379,13 +379,57 @@ As mentioned in Section \ref{sec:MPR_start_Firing}, the transitions with non-zer
 \end{figure}
 
 The sets $\mathbb{T},\ \mathbb{K},\ \mathbb{I}^t$ are specified as follows. Set $\mathbb{T}$ is composed of three transitions $\{t_{arr},\tilde{t}_{process}, \bar{t}_{process}\}$ as shown in Figure \ref{fig:tpn_GG2_expansion}. If $n$ job arrival, processing and departure are simulated, each of the three transitions is fired for $n$ times, and the set $\mathbb{I}^t$ is equal to $\{1,2,..., n\}$. There are $3n$ transition firings in the simulation execution and the set $\mathbb{K}$ is equal to $\{0,1,..., 3n-1\}$. The initial markings $m^{p_{arr}}_0,\ m^{p_{queue}}_0, m^{p_{process}}_0, m^{p_{idle}}$ are specified as 1, 0, 0, 2. Once the TPN with the initial markings and the simulation length are provided, the MPR %composed of 
-corresponding to constraints (A1) to (A7), (B1) to (B7), (C1) to (C4) and (D1) can be generated. 
+corresponding to constraints (A1) to (A7), (B1) to (B7), (C1) to (C4) and (D1) can be generated. The implementation pseudo code is presented in Algorithm \ref{Algo:Implementation}. 
 
 \begin{eqnarray}
 	\mathbb{T} = \{t_{arr},\tilde{t}_{proc}, \bar{t}_{proc}\} \nonumber\\
 	\mathbb{K} = \{0,1,..., 3n-1\} \nonumber\\
 	\mathbb{I}^t=\{1,2,..., n\} \nonumber
 \end{eqnarray}
+
+\begin{algorithm}
+	\caption{Implementation pseudo code.}
+	\begin{algorithmic}[1]
+		\label{Algo:Implementation}
+		\REQUIRE ~~ \\
+		Timed Petri net: $N=(\mathbb{P}, \mathbb{T}, F, W, M_0, \tau)$. \\
+		Number of firing of each transition $t$: ${I}^t$ and index set $\mathbb{I}^t$\\
+		Total number of firings: $K$ and index set $\mathbb{K}=\{0,1,...,K-1\}$\\
+		
+		\STATE \textbf{Expand TPN:}
+		\FOR {transition $t\in\mathbb{T}$:}
+			\IF {$t$ has non-zero firing time}
+				\STATE Expand $t$ into $\tilde{t}, p_t, \bar{t}$ and update $N$.
+			\ENDIF
+		\ENDFOR
+		
+		\FOR{$t\in\mathbb{T}$, $i\in\mathbb{I}^t$, $k\in\mathbb{K}$}
+		\STATE (A1), (A2), (B1), (B2)
+		\ENDFOR
+		
+		\FOR{$t\in\mathbb{T}$, $i\in\mathbb{I}^t$}
+		\STATE (A3),(A5),(B7),(C1),(C2),(C3),(C4)
+		\ENDFOR
+		
+		\FOR{$k\in\mathbb{K}$}
+		\STATE (A4),(A6)
+		\ENDFOR
+		
+		\FOR{$t\in\mathbb{T}$, $k\in\mathbb{K}$, $p\in\mathbb{P}$}
+		\STATE (B3),(B4)
+		\ENDFOR
+		
+		\FOR{$t\in\mathbb{T}$, $k\in\mathbb{K}$}
+		\STATE (B5),(B6)
+		\ENDFOR
+		
+		\FOR{$p\in\mathbb{P}$, $k\in\mathbb{K}$}
+		\STATE (D1),(D2)
+		\ENDFOR
+	\end{algorithmic}
+\end{algorithm}
+
+
 
 \noindent
 Table \ref{tab:sim_GGM} shows the first ten iteration of a simulation run of a G/G/m queue.
